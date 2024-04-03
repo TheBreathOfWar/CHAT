@@ -1,6 +1,7 @@
 # Установка
 
 ```$ pip install -r requirements.txt```
+```$ pip install -q -U transformers accelerate git+https://github.com/huggingface/peft.git```
 
 
 # SMALL_V
