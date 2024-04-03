@@ -1,3 +1,6 @@
+```$ pip install -r requirements.txt```
+
+
 # SMALL_V
 
 ### **Обучение** на **140K** символах на **GPU** -```30 минут```
