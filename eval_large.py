@@ -10,9 +10,10 @@ print('{} device is available'.format(device))
 
 # Загрузка весов модели и токенизация текста
 
-model_name = "weights_large.pth"
-tokenizer = GPT2Tokenizer.from_pretrained(model_name)
-model = GPT2LMHeadModel.from_pretrained(model_name).to(device)
+tokenizer_name = "sberbank-ai/rugpt3small_based_on_gpt2"
+model_weights = "weights_large.pth"
+tokenizer = GPT2Tokenizer.from_pretrained(tokenizer_name)
+model = GPT2LMHeadModel.from_pretrained(model_weights).to(device)
 
 # Фраза для начала генерации
 
